@@ -15,6 +15,10 @@ class todoController {
             newTask: newTodo
         })
     } 
+
+    getTodos(req, res){
+        res.json({tasks: this.TODOS}  )
+    } 
 } 
 
 
